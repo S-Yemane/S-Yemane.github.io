@@ -15,7 +15,11 @@
 	<body class="is-preload">
 		<!-- Wrapper -->
 			<div id="wrapper">
-				<div w3-include-html="test.html"></div>
+				<script> 
+					$(function(){
+					  $("#DivContent").load("test.html"); 
+					});
+				</script> 
 
 				<!-- Header -->
 					
